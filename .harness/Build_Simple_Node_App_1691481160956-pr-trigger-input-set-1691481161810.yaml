@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Simple_Node_App_1691481160956-pr-trigger-input-set
+  identifier: Build_Simple_Node_App_1691481160956prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: notesappexample
+  pipeline:
+    identifier: Build_Simple_Node_App_1691481160956
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
