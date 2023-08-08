@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Simple_Node_App_1691482264754-push-trigger-input-set
+  identifier: Build_Simple_Node_App_1691482264754pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: notesappexample
+  pipeline:
+    identifier: Build_Simple_Node_App_1691482264754
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
